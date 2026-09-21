@@ -1,20 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+FanTouchDown (Winner, Pulse AI NYC Hackathon)
 
-# Run and deploy your AI Studio app
+Problem: Super Bowl ad slots are expensive and dominated by big brands. Small and medium businesses have no affordable way to capture the attention the game generates.
 
-This contains everything you need to run your app locally.
+Solution: FanTouchDown detects big moments in the game, such as touchdowns, halftime, and fouls, using a scripted game simulator. It generates Instagram-ready ads for each moment with Gemini. To keep fans engaged, the app runs prediction polls: fans who guess a moment correctly earn bigger discounts than those who guess wrong.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1zWMzhiS0euORpJxRe8vJgDSEQljdloNF
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Run locally: npm install, set GEMINI_API_KEY in .env.local, then npm run dev
